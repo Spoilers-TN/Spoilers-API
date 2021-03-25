@@ -8,3 +8,5 @@
 /.idea/httpRequests/
 # IntelliJ ignore
 /.idea/
+/target/
+/out/
