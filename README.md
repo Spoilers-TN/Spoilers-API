@@ -1,2 +1,2 @@
 # Spoilers-API
- A Java RESTful API for getting podcasts
+ A C# written RESTful API for getting info about our podcasts
