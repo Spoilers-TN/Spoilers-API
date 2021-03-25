@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "k6HeapY3vnyvKI0qcyzfSH/ZsrXUfUkk3hW7tZr8LT35QO4Is8ZMQjxm0DEqb/0tlJUslDMnD4JpR5NUfrKrxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Francesco Masala\\source\\repos\\Spoilers-API\\Spoilers-API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Francesco Masala\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Francesco Masala\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Francesco Masala\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Francesco Masala\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Francesco Masala\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Francesco Masala\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
