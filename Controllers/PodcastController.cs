@@ -32,7 +32,7 @@ namespace Spoilers_API.Controllers
         [HttpGet]
         public IEnumerable<PodcastData> Get()
         {
-            return Enumerable.Range(0, 4).Select(index => new PodcastData
+            return Enumerable.Range(0, 5).Select(index => new PodcastData
             {
                 Episodes = Episode[index],
                 Summary = Summaries[index]
