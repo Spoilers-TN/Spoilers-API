@@ -9,7 +9,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: Spoilers-API
+  IMAGE_NAME: spoilers-api
 
 jobs:
   test:
