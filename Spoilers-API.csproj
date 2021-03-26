@@ -4,10 +4,44 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Spoilers_API</RootNamespace>
     <UserSecretsId>2b5fa00e-6c1e-45cf-a22d-dfdbc7d74262</UserSecretsId>
+    <Authors>Francesco Masala</Authors>
+    <Product>Spoilers RESTapi</Product>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Spoilers-TN/Spoilers-API</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Spoilers-TN/Spoilers-API</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.5</Version>
+    <SignAssembly>false</SignAssembly>
+    <OutputType>Exe</OutputType>
+    <StartupObject>Spoilers_API.Program</StartupObject>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
