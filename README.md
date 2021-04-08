@@ -3,5 +3,4 @@
 [![.NET](https://github.com/Spoilers-TN/Spoilers-API/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Spoilers-TN/Spoilers-API/actions/workflows/dotnet.yml)
 [![Docker](https://github.com/Spoilers-TN/Spoilers-API/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/Spoilers-TN/Spoilers-API/actions/workflows/docker-publish.yml)
 
-
 A C# written RESTful API for getting info about our podcasts
